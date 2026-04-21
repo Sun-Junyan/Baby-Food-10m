@@ -1,0 +1,756 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>10月龄宝宝一周辅食菜谱（补铁强化版·肝粉+新鲜肝脏）</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;500;700&display=swap');
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'Noto Sans SC',-apple-system,BlinkMacSystemFont,sans-serif;background:#0a0e17;color:#e0e6f0;line-height:1.7;padding:20px;min-height:100vh}
+.container{max-width:1200px;margin:0 auto}
+.header{text-align:center;padding:40px 20px 30px;background:linear-gradient(135deg,#0f1923,#162033,#0f1923);border-radius:16px;margin-bottom:30px;border:1px solid rgba(56,189,248,0.15);position:relative;overflow:hidden}
+.header::before{content:'';position:absolute;top:-50%;left:-50%;width:200%;height:200%;background:radial-gradient(circle at 30% 50%,rgba(56,189,248,0.05)0%,transparent 50%),radial-gradient(circle at 70% 50%,rgba(168,85,247,0.05)0%,transparent 50%);animation:aurora 8s ease-in-out infinite alternate}
+@keyframes aurora{0%{transform:rotate(0)}100%{transform:rotate(3deg)}}
+.header h1{font-size:2.1em;font-weight:700;background:linear-gradient(135deg,#38bdf8,#a78bfa,#f472b6);-webkit-background-clip:text;-webkit-text-fill-color:transparent;position:relative;z-index:1}
+.header .subtitle{font-size:.92em;color:#8899b0;margin-top:8px;position:relative;z-index:1}
+.header .badges{margin-top:14px;position:relative;z-index:1;display:flex;justify-content:center;flex-wrap:wrap;gap:8px}
+.header .badge{display:inline-block;padding:4px 14px;background:rgba(56,189,248,0.12);border:1px solid rgba(56,189,248,0.25);border-radius:20px;font-size:.78em;color:#38bdf8}
+.header .badge.warn{background:rgba(251,191,36,0.12);border-color:rgba(251,191,36,0.25);color:#fbbf24}
+.header .badge.meat{background:rgba(251,146,60,0.12);border-color:rgba(251,146,60,0.25);color:#fb923c}
+.header .badge.pink{background:rgba(244,114,182,0.12);border-color:rgba(244,114,182,0.25);color:#f472b6}
+.section-title{font-size:1.35em;font-weight:700;margin:35px 0 18px;padding-left:14px;border-left:4px solid;border-image:linear-gradient(to bottom,#38bdf8,#a78bfa)1}
+.nutrient-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(190px,1fr));gap:14px;margin-bottom:30px}
+.nutrient-card{background:linear-gradient(135deg,#111827,#1a2332);border:1px solid rgba(56,189,248,0.12);border-radius:12px;padding:16px;transition:transform .2s,border-color .2s}
+.nutrient-card:hover{transform:translateY(-2px);border-color:rgba(56,189,248,0.35)}
+.nc-name{font-size:.85em;color:#8899b0;margin-bottom:5px}
+.nc-value{font-size:1.5em;font-weight:700;color:#38bdf8}
+.nc-unit{font-size:.72em;color:#6b7f99;font-weight:400}
+.nc-source{font-size:.75em;color:#6b7f99;margin-top:5px;line-height:1.5}
+.day-card{background:linear-gradient(135deg,#111827,#162033);border:1px solid rgba(56,189,248,0.1);border-radius:14px;margin-bottom:22px;overflow:hidden;transition:border-color .3s}
+.day-card:hover{border-color:rgba(56,189,248,0.3)}
+.day-header{padding:14px 20px;font-size:1.12em;font-weight:700;display:flex;align-items:center;gap:10px;border-bottom:1px solid rgba(56,189,248,0.08);background:rgba(56,189,248,0.04)}
+.day-num{display:inline-flex;align-items:center;justify-content:center;width:32px;height:32px;background:linear-gradient(135deg,#38bdf8,#a78bfa);border-radius:8px;font-size:.82em;font-weight:700;color:#0a0e17}
+.iron-badge{margin-left:auto;font-size:.72em;padding:3px 10px;border-radius:12px;font-weight:500}
+.iron-badge.high{background:rgba(52,211,153,0.12);border:1px solid rgba(52,211,153,0.3);color:#34d399}
+.iron-badge.mid{background:rgba(251,191,36,0.12);border:1px solid rgba(251,191,36,0.3);color:#fbbf24}
+.iron-badge.powder{background:rgba(244,114,182,0.12);border:1px solid rgba(244,114,182,0.3);color:#f472b6}
+.meal-section{padding:16px 20px;border-bottom:1px solid rgba(255,255,255,0.04)}
+.meal-section:last-child{border-bottom:none}
+.meal-label{font-size:.82em;font-weight:500;color:#a78bfa;margin-bottom:10px;text-transform:uppercase;letter-spacing:1px}
+.meal-row{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.food-box{background:rgba(0,0,0,0.25);border-radius:10px;padding:14px;border:1px solid rgba(255,255,255,0.04)}
+.food-type{font-size:.72em;color:#6b7f99;margin-bottom:4px;text-transform:uppercase;letter-spacing:.5px}
+.food-name{font-size:1.02em;font-weight:600;color:#e8edf5;margin-bottom:6px}
+.food-detail{font-size:.8em;color:#8899b0;line-height:1.6}
+.food-tag{display:inline-block;margin-top:8px;padding:2px 10px;background:rgba(56,189,248,0.1);border:1px solid rgba(56,189,248,0.2);border-radius:12px;font-size:.72em;color:#38bdf8}
+.food-tag.purple{background:rgba(168,139,250,0.1);border-color:rgba(168,139,250,0.2);color:#a78bfa}
+.food-tag.green{background:rgba(52,211,153,0.1);border-color:rgba(52,211,153,0.2);color:#34d399}
+.food-tag.meat{background:rgba(251,146,60,0.1);border-color:rgba(251,146,60,0.2);color:#fb923c}
+.food-tag.pink{background:rgba(244,114,182,0.1);border-color:rgba(244,114,182,0.2);color:#f472b6}
+.new-badge{display:inline-block;margin-left:6px;padding:1px 6px;background:rgba(251,146,60,0.2);border-radius:4px;font-size:.65em;color:#fb923c;font-weight:700;vertical-align:middle}
+.powder-tag{display:inline-block;margin-left:4px;padding:1px 8px;background:rgba(244,114,182,0.15);border:1px solid rgba(244,114,182,0.3);border-radius:8px;font-size:.7em;color:#f472b6;font-weight:600;vertical-align:middle}
+.nutrient-table-wrap{margin-top:14px;overflow-x:auto}
+table{width:100%;border-collapse:collapse;font-size:.8em}
+thead th{background:rgba(56,189,248,0.08);color:#38bdf8;font-weight:600;padding:7px 8px;text-align:center;border-bottom:1px solid rgba(56,189,248,0.15);white-space:nowrap}
+tbody td{padding:6px 8px;text-align:center;border-bottom:1px solid rgba(255,255,255,0.04);color:#c0ccdf}
+tbody tr:hover td{background:rgba(56,189,248,0.04)}
+tbody td:first-child{text-align:left;font-weight:500;color:#e0e6f0;white-space:nowrap}
+.highlight-row td{background:rgba(168,139,250,0.06)!important;font-weight:600;color:#a78bfa!important}
+.good{color:#34d399!important}.warn{color:#fbbf24!important}
+.info-box{background:linear-gradient(135deg,#111827,#162033);border:1px solid rgba(56,189,248,0.1);border-radius:12px;padding:18px 22px;margin-bottom:28px;font-size:.86em;color:#8899b0;line-height:2}
+.texture-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(140px,1fr));gap:10px;margin-bottom:30px}
+.texture-card{background:linear-gradient(135deg,#111827,#1a2332);border:1px solid rgba(251,146,60,0.15);border-radius:10px;padding:12px;text-align:center}
+.texture-card .tc-icon{font-size:1.5em;margin-bottom:4px}
+.texture-card .tc-name{font-size:.82em;font-weight:600;color:#fb923c}
+.texture-card .tc-count{font-size:.72em;color:#6b7f99;margin-top:2px}
+.texture-card .tc-skill{font-size:.7em;color:#a78bfa;margin-top:3px}
+.shop-grid{display:grid;grid-template-columns:1fr 1fr 1fr;gap:16px;margin-bottom:30px}
+.shop-card{background:linear-gradient(135deg,#111827,#162033);border:1px solid rgba(244,114,182,0.12);border-radius:14px;overflow:hidden}
+.shop-header{padding:12px 16px;font-weight:700;font-size:1em;background:rgba(244,114,182,0.06);border-bottom:1px solid rgba(244,114,182,0.1);display:flex;align-items:center;gap:8px}
+.shop-tag{display:inline-flex;align-items:center;justify-content:center;width:26px;height:26px;background:linear-gradient(135deg,#f472b6,#a78bfa);border-radius:6px;font-size:.75em;font-weight:700;color:#0a0e17}
+.shop-body{padding:12px 16px}
+.shop-cat{font-size:.8em;font-weight:600;color:#f472b6;margin:8px 0 5px}
+.shop-cat:first-child{margin-top:0}
+.shop-item{font-size:.8em;color:#a0b0c5;padding:1px 0;display:flex;justify-content:space-between}
+.shop-item span:last-child{color:#6b7f99;font-size:.9em}
+.shop-item .new-item{color:#fb923c;font-weight:500}
+.shop-note{font-size:.75em;color:#6b7f99;margin-top:8px;padding-top:8px;border-top:1px solid rgba(255,255,255,0.04);line-height:1.6}
+.powder-box{background:linear-gradient(135deg,#1a1030,#201840);border:1px solid rgba(244,114,182,0.25);border-radius:12px;padding:18px 22px;margin-bottom:28px;font-size:.86em;color:#8899b0;line-height:2}
+.powder-box .pb-title{color:#f472b6;font-weight:700;font-size:1.05em;margin-bottom:8px}
+.footer{text-align:center;padding:30px 20px;color:#4a5c73;font-size:.78em;border-top:1px solid rgba(255,255,255,0.04);margin-top:40px}
+@media(max-width:768px){.meal-row{grid-template-columns:1fr}.nutrient-grid{grid-template-columns:repeat(2,1fr)}.texture-grid{grid-template-columns:repeat(3,1fr)}.shop-grid{grid-template-columns:1fr}.header h1{font-size:1.5em}table{font-size:.72em}}
+</style>
+</head>
+<body>
+<div class="container">
+
+<div class="header">
+  <h1>🍼 10月龄宝宝一周辅食菜谱</h1>
+  <div class="subtitle">补铁强化版 · 不吃高铁米粉 · 不加水果 · 烩饭+造型面+燕麦 · 肝粉+新鲜肝脏</div>
+  <div class="badges">
+    <span class="badge">每日2顿（午餐+晚餐）</span>
+    <span class="badge warn">鸭血1+猪肝1+鸡肝1+肝粉4天</span>
+    <span class="badge meat">肉丸3次+鱼丸1次+蔬菜条1次</span>
+    <span class="badge pink">🆕 光合星球肝粉 2g/餐</span>
+  </div>
+</div>
+
+<!-- ====== 营养缺口分析 ====== -->
+<div class="section-title">🔍 营养缺口分析（奶750ml + 辅食≈100g/天）</div>
+<div class="info-box">
+  <b style="color:#38bdf8">🍼 奶量贡献</b>（爱他美白金2段 × 750ml）<br>
+  <div style="padding-left:18px;margin-bottom:10px;color:#a0b0c5">
+    能量 525 kcal · 蛋白质 11.3g · 脂肪 26.3g · <b style="color:#fbbf24">铁 6.1mg</b> · 钙 563mg · <b style="color:#fbbf24">锌 3.75mg</b> · VitA 510μg · VitC 150mg · <b style="color:#fbbf24">VitD 9.0μg</b> · DHA 173mg
+  </div>
+  <b style="color:#38bdf8">📊 辅食需补足的缺口</b>（推荐量 - 奶贡献）<br>
+  <div style="padding-left:18px;margin-bottom:10px;color:#a0b0c5">
+    能量 +175kcal · 蛋白质 +8.7g · 脂肪 +6~8g · <b style="color:#fbbf24">铁 +3.9mg（缺口最大）</b> · 钙 已足 · <b style="color:#fbbf24">锌 +0.25mg</b> · VitA 已足 · VitC 已足 · <b style="color:#fbbf24">VitD +1.0μg</b> · DHA 已足
+  </div>
+  <b style="color:#fbbf24">⚠️ 三大重点缺口：铁＞VitD＞锌</b><br>
+  <div style="padding-left:18px;color:#a0b0c5">
+    <b>铁</b>：不吃高铁米粉，靠新鲜肝脏+鸭血+肝粉+红肉补足，辅食需提供≥4mg/天<br>
+    <b>VitD</b>：奶9μg + 补充剂10μg(400IU) = 19μg，远超推荐量10μg，<b style="color:#34d399">加VD补充剂后无忧</b><br>
+    <b>锌</b>：奶3.75mg + 辅食约4.5mg ≈ 8.25mg，<b style="color:#34d399">超过4.0mg推荐量，达标</b>
+  </div>
+</div>
+
+<!-- ====== 推荐摄入量 ====== -->
+<div class="section-title">📊 7~12月龄关键营养素每日推荐摄入量</div>
+<div class="nutrient-grid">
+  <div class="nutrient-card"><div class="nc-name">能量</div><div class="nc-value">700 <span class="nc-unit">kcal</span></div><div class="nc-source">EER</div></div>
+  <div class="nutrient-card"><div class="nc-name">蛋白质</div><div class="nc-value">20 <span class="nc-unit">g</span></div><div class="nc-source">RNI</div></div>
+  <div class="nutrient-card"><div class="nc-name">脂肪</div><div class="nc-value">40 <span class="nc-unit">%E</span></div><div class="nc-source">AI·约28~35g</div></div>
+  <div class="nutrient-card" style="border-color:rgba(251,191,36,0.3)"><div class="nc-name" style="color:#fbbf24">⭐ 铁</div><div class="nc-value" style="color:#fbbf24">10 <span class="nc-unit">mg</span></div><div class="nc-source">RNI·97%需来自辅食</div></div>
+  <div class="nutrient-card"><div class="nc-name">钙</div><div class="nc-value">250 <span class="nc-unit">mg</span></div><div class="nc-source">AI·奶量充足已达标</div></div>
+  <div class="nutrient-card"><div class="nc-name">锌</div><div class="nc-value">4.0 <span class="nc-unit">mg</span></div><div class="nc-source">RNI(2023版更新)</div></div>
+  <div class="nutrient-card"><div class="nc-name">维生素A</div><div class="nc-value">350 <span class="nc-unit">μgRAE</span></div><div class="nc-source">RNI·奶+肝已足</div></div>
+  <div class="nutrient-card"><div class="nc-name">维生素C</div><div class="nc-value">40 <span class="nc-unit">mg</span></div><div class="nc-source">RNI·奶已足</div></div>
+  <div class="nutrient-card" style="border-color:rgba(251,191,36,0.3)"><div class="nc-name" style="color:#fbbf24">⭐ 维生素D</div><div class="nc-value" style="color:#fbbf24">10 <span class="nc-unit">μg(400IU)</span></div><div class="nc-source">AI·必须补补充剂</div></div>
+  <div class="nutrient-card"><div class="nc-name">DHA</div><div class="nc-value">100 <span class="nc-unit">mg</span></div><div class="nc-source">AI·奶已足</div></div>
+</div>
+
+<!-- ====== 光合星球肝粉说明 ====== -->
+<div class="section-title">🌸 光合星球婴幼儿肝粉使用说明</div>
+<div class="powder-box">
+  <div class="pb-title">📦 产品信息</div>
+  <div style="display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-bottom:14px">
+    <div style="background:rgba(0,0,0,0.25);border-radius:8px;padding:12px">
+      <div style="color:#f472b6;font-weight:600;font-size:.9em;margin-bottom:6px">📊 营养成分（每100g）</div>
+      <div style="font-size:.82em;color:#a0b0c5;line-height:1.8">
+        能量 1754kJ · 蛋白质 65.7g · 脂肪 12.7g<br>
+        碳水 9.84g · 钠 197mg<br>
+        VB2 2.68mg · <b style="color:#fbbf24">铁 45.1mg</b> · <b style="color:#fbbf24">锌 15.2mg</b>
+      </div>
+    </div>
+    <div style="background:rgba(0,0,0,0.25);border-radius:8px;padding:12px">
+      <div style="color:#f472b6;font-weight:600;font-size:.9em;margin-bottom:6px">🧪 每包(2g)营养素</div>
+      <div style="font-size:.82em;color:#a0b0c5;line-height:1.8">
+        蛋白质 1.3g · 钠 3.9mg<br>
+        <b style="color:#fbbf24">铁 0.9mg</b> · <b style="color:#fbbf24">锌 0.3mg</b> · VB2 0.054mg<br>
+        VitA 约140μg（估算）
+      </div>
+    </div>
+  </div>
+  <div style="background:rgba(0,0,0,0.25);border-radius:8px;padding:12px;margin-bottom:14px">
+    <div style="color:#f472b6;font-weight:600;font-size:.9em;margin-bottom:6px">📋 配料</div>
+    <div style="font-size:.82em;color:#a0b0c5;line-height:1.6">
+      猪肝、鸡肝、鹅肝（3种动物肝脏添加量≥95%）+ 红枣粉 + 浓缩乳清蛋白粉(≥0.75%) + 胡萝卜粉 + 柠檬<br>
+      <b style="color:#34d399">无额外添加铁剂，纯靠食材本身铁</b> · 含红枣/胡萝卜/柠檬，自带微甜果味
+    </div>
+  </div>
+  <div class="pb-title">📅 本周使用方案</div>
+  <div style="padding-left:18px;color:#a0b0c5">
+    <b>新鲜肝/血日(3天)</b>：周一·鸭血 / 周三·猪肝 / 周五·鸡肝 → <b style="color:#34d399">不用肝粉</b><br>
+    <b>肝粉日(4天)</b>：周二/四/六/日 → 每餐1包(2g)拌入主食，2餐/天=4g/天<br>
+    一周用量：<b style="color:#f472b6">8包=16g</b>，一罐32g可用2周<br>
+    <b>掩味技巧</b>：肝粉含红枣粉+胡萝卜粉，自带微甜果味；拌入<b style="color:#38bdf8">番茄味/南瓜味/芝麻油味</b>菜品效果最佳
+  </div>
+</div>
+
+<!-- ====== 补铁策略 ====== -->
+<div class="section-title">🩸 补铁策略（新鲜肝脏+肝粉双路补铁）</div>
+<div class="info-box">
+  <b style="color:#fbbf24">铁缺口</b>：奶仅提供6.1mg，需辅食补≥4mg/天（推荐10mg - 奶6.1mg）<br>
+  <b style="color:#34d399">核心策略</b>：新鲜肝脏/血制品(3天) + 肝粉(4天) + 红肉(每日) + 植物铁源(黑木耳/菠菜/红小豆/燕麦)<br><br>
+  <div style="display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-bottom:12px">
+    <div style="background:rgba(0,0,0,0.25);border-radius:8px;padding:12px">
+      <div style="color:#34d399;font-weight:600;font-size:.9em;margin-bottom:6px">🏆 血红素铁来源（吸收率15~35%）</div>
+      <div style="font-size:.82em;color:#a0b0c5;line-height:1.8">
+        🩸鸭血 30.5mg/100g（新鲜·周一）<br>
+        🫀猪肝 22.6mg/100g（新鲜·周三）<br>
+        🐔鸡肝 12.0mg/100g（新鲜·周五）<br>
+        🌸肝粉 45.1mg/100g（周二/四/六/日）<br>
+        🥩牛里脊 4.4mg/100g（每日穿插）<br>
+        🐖猪里脊 3.3mg/100g（穿插补位）
+      </div>
+    </div>
+    <div style="background:rgba(0,0,0,0.25);border-radius:8px;padding:12px">
+      <div style="color:#fbbf24;font-weight:600;font-size:.9em;margin-bottom:6px">📋 每日铁摄入预估</div>
+      <div style="font-size:.82em;color:#a0b0c5;line-height:1.8">
+        周一·鸭血日 → 铁≈18.3mg 🔴<br>
+        周二·肝粉日 → 铁≈12.2mg ✅<br>
+        周三·猪肝日 → 铁≈15.9mg 🔴<br>
+        周四·肝粉日 → 铁≈13.0mg ✅<br>
+        周五·鸡肝日 → 铁≈14.4mg ✅<br>
+        周六·肝粉日 → 铁≈11.9mg ✅<br>
+        周日·肝粉日 → 铁≈12.5mg ✅
+      </div>
+    </div>
+  </div>
+  <b style="color:#38bdf8">促吸收3原则</b>：<br>
+  <div style="padding-left:18px;color:#a0b0c5">
+    ① 含铁食物搭配<b>VitC丰富蔬菜</b>（番茄/西兰花/花菜），铁吸收率↑2~3倍<br>
+    ② 奶与含铁辅食<b>间隔≥1小时</b>，避免钙抑制铁吸收<br>
+    ③ 新鲜肝脏<b>间隔≥1天喂</b>，避免VitA过量；肝粉VitA更可控（4g仅≈280μg vs 新鲜猪肝25g≈1243μg）
+  </div>
+</div>
+
+<!-- ====== 食物性状多样性 ====== -->
+<div class="section-title">🤏 食物②性状多样性（14顿·10种不同类型）</div>
+<div class="texture-grid">
+  <div class="texture-card"><div class="tc-icon">🟠</div><div class="tc-name">肉丸/鱼丸</div><div class="tc-count">×3次</div><div class="tc-skill">三指捏握</div></div>
+  <div class="texture-card"><div class="tc-icon">🟣</div><div class="tc-name">蒸糕</div><div class="tc-count">×3次</div><div class="tc-skill">三指捏握</div></div>
+  <div class="texture-card"><div class="tc-icon">🟢</div><div class="tc-name">软饼</div><div class="tc-count">×2次</div><div class="tc-skill">双手抓取</div></div>
+  <div class="texture-card"><div class="tc-icon">🔵</div><div class="tc-name">馄饨</div><div class="tc-count">×2次</div><div class="tc-skill">捏握+咬断</div></div>
+  <div class="texture-card"><div class="tc-icon">🟡</div><div class="tc-name">蛋羹</div><div class="tc-count">×1次</div><div class="tc-skill">勺子进食</div></div>
+  <div class="texture-card"><div class="tc-icon">🟤</div><div class="tc-name">蒸饺</div><div class="tc-count">×1次</div><div class="tc-skill">捏握+咬断</div></div>
+  <div class="texture-card"><div class="tc-icon">⚪</div><div class="tc-name">馒头</div><div class="tc-count">×1次</div><div class="tc-skill">双手撕咬</div></div>
+  <div class="texture-card"><div class="tc-icon">🔴</div><div class="tc-name">蔬菜条</div><div class="tc-count">×1次</div><div class="tc-skill">掌心抓握+撕咬</div></div>
+</div>
+<div class="info-box" style="margin-top:-18px">
+  <b style="color:#fb923c">🆕 本版亮点</b>：鲜虾丸+牛肉丸+鸡肉丸 — 肉制手指食物同时提供<b style="color:#38bdf8">优质蛋白+铁/锌+咀嚼训练</b><br>
+  <b style="color:#f472b6">🌸 肝粉日标注</b>：肝粉日主食菜品标注 <span class="powder-tag">+肝粉2g</span>，拌入烩饭/面条中无需额外操作<br>
+  <b style="color:#a78bfa">💡 10月龄咀嚼发育</b>：圆丸→三指捏握精细动作，条状→掌心抓握+门牙撕咬，饼状→双手协同
+</div>
+
+<!-- ============ 周一 ============ -->
+<div class="day-card">
+  <div class="day-header"><span class="day-num">#01</span> 周一<span class="iron-badge high">🩸鸭血补铁日</span></div>
+  <div class="meal-section">
+    <div class="meal-label">☀ 午餐</div>
+    <div class="meal-row">
+      <div class="food-box">
+        <div class="food-type">食物① · 肉菜烩饭</div>
+        <div class="food-name">🩸 鸭血番茄西兰花烩饭</div>
+        <div class="food-detail">鸭血(熟) 25g · 番茄 25g · 西兰花 20g<br>软米饭 25g(干) · 核桃油 5g<br><b>做法</b>：鸭血切小丁焯水去腥，番茄去皮炒出汁，西兰花焯熟碎小朵，与软饭烩拌<br><b style="color:#34d399">铁贡献</b>：鸭血7.6mg+VitC促吸收</div>
+        <span class="food-tag green">血红素铁+VitC</span>
+      </div>
+      <div class="food-box">
+        <div class="food-type">食物② · 肉丸 <span class="new-badge">NEW</span></div>
+        <div class="food-name">🦐 鲜虾胡萝卜小丸子</div>
+        <div class="food-detail">鲜虾仁 25g · 胡萝卜 15g · 淀粉 5g<br><b>做法</b>：虾仁去虾线剁泥，胡萝卜蒸软擦细末，加淀粉搅匀搓小丸（直径1.5cm），蒸10min</div>
+        <span class="food-tag meat">丸状手指食物</span>
+      </div>
+    </div>
+  </div>
+  <div class="meal-section">
+    <div class="meal-label">🌙 晚餐</div>
+    <div class="meal-row">
+      <div class="food-box">
+        <div class="food-type">食物① · 肉菜面</div>
+        <div class="food-name">🥩 牛肉小油菜蝴蝶面</div>
+        <div class="food-detail">牛里脊 25g · 小油菜 25g · 蝴蝶面 25g(干)<br>亚麻籽油 5g<br><b>做法</b>：牛肉切小粒炒熟，小油菜焯熟切末，蝴蝶面煮软烂拌入<br><b style="color:#34d399">铁贡献</b>：牛肉1.1mg</div>
+        <span class="food-tag">蝴蝶形+颗粒</span>
+      </div>
+      <div class="food-box">
+        <div class="food-type">食物② · 蒸糕</div>
+        <div class="food-name">🍠 紫薯山药蒸糕</div>
+        <div class="food-detail">紫薯 30g · 铁棍山药 25g · 低筋面粉 15g · 鸡蛋 1个<br><b>做法</b>：紫薯山药蒸软压泥，加蛋黄面粉搅糊，蛋白打发起泡翻拌，模具蒸20min</div>
+        <span class="food-tag purple">软块手指食物</span>
+      </div>
+    </div>
+  </div>
+  <div class="nutrient-table-wrap"><table><thead><tr><th>餐次/菜品</th><th>能量</th><th>蛋白质</th><th>铁</th><th>钙</th><th>锌</th><th>VitA</th><th>VitC</th><th>DHA</th></tr></thead><tbody>
+    <tr><td>午餐-鸭血番茄西兰花烩饭</td><td>192</td><td>5.8</td><td>8.1</td><td>32</td><td>1.0</td><td>48</td><td>28</td><td>0</td></tr>
+    <tr><td>午餐-鲜虾胡萝卜小丸子</td><td>49</td><td>5.7</td><td>0.4</td><td>30</td><td>0.4</td><td>125</td><td>1</td><td>28</td></tr>
+    <tr><td>晚餐-牛肉小油菜蝴蝶面</td><td>195</td><td>8.5</td><td>1.5</td><td>65</td><td>2.0</td><td>55</td><td>10</td><td>0</td></tr>
+    <tr><td>晚餐-紫薯山药蒸糕</td><td>130</td><td>4.2</td><td>0.5</td><td>22</td><td>0.4</td><td>8</td><td>6</td><td>18</td></tr>
+    <tr class="highlight-row"><td>📍 辅食合计</td><td>566</td><td>24.2</td><td>10.5</td><td>149</td><td>3.8</td><td>236</td><td>45</td><td>46</td></tr>
+    <tr style="background:rgba(52,211,153,0.06)"><td>📍 奶+辅食合计</td><td class="good">1091</td><td class="good">35.5</td><td class="good">16.6</td><td class="good">712</td><td class="good">7.6</td><td class="good">746</td><td class="good">195</td><td class="good">219</td></tr>
+  </tbody></table></div>
+</div>
+
+<!-- ============ 周二 ============ -->
+<div class="day-card">
+  <div class="day-header"><span class="day-num">#02</span> 周二<span class="iron-badge powder">🌸肝粉补铁日</span></div>
+  <div class="meal-section">
+    <div class="meal-label">☀ 午餐</div>
+    <div class="meal-row">
+      <div class="food-box">
+        <div class="food-type">食物① · 肉菜烩饭 <span class="powder-tag">+肝粉2g</span></div>
+        <div class="food-name">🥩 牛肉菠菜胡萝卜烩饭</div>
+        <div class="food-detail">牛里脊 25g · 菠菜 20g · 胡萝卜 20g<br>软米饭 25g(干) · 紫苏油 5g · <b style="color:#f472b6">光合星球肝粉 2g</b><br><b>做法</b>：牛肉切小粒炒熟，菠菜焯水去草酸切末，胡萝卜蒸软切丁，与软饭烩拌，出锅拌入肝粉<br><b style="color:#34d399">铁贡献</b>：牛肉1.1mg+肝粉0.9mg+VitC促吸收</div>
+        <span class="food-tag green">血红素铁+VitC</span>
+      </div>
+      <div class="food-box">
+        <div class="food-type">食物② · 蒸饺</div>
+        <div class="food-name">🌽 甜玉米猪肉蒸饺</div>
+        <div class="food-detail">猪里脊 20g · 甜玉米粒 15g · 饺子皮 15g<br><b>做法</b>：猪肉剁泥，玉米取粒，包小饺子蒸15min</div>
+        <span class="food-tag purple">手指食物饺状</span>
+      </div>
+    </div>
+  </div>
+  <div class="meal-section">
+    <div class="meal-label">🌙 晚餐</div>
+    <div class="meal-row">
+      <div class="food-box">
+        <div class="food-type">食物① · 肉菜烩饭 <span class="powder-tag">+肝粉2g</span></div>
+        <div class="food-name">🐟 三文鱼南瓜烩饭</div>
+        <div class="food-detail">三文鱼 25g · 老南瓜 30g · 软米饭 25g(干)<br>橄榄油 5g · <b style="color:#f472b6">光合星球肝粉 2g</b><br><b>做法</b>：三文鱼蒸8min碾碎去刺，南瓜蒸软切小丁，与软饭烩拌，出锅拌入肝粉<br><b style="color:#fbbf24">💡 南瓜甜味掩盖肝粉味</b></div>
+        <span class="food-tag">颗粒状烩饭</span>
+      </div>
+      <div class="food-box">
+        <div class="food-type">食物② · 软饼</div>
+        <div class="food-name">🥦 西兰花鸡蛋软饼</div>
+        <div class="food-detail">西兰花 15g · 鸡蛋 1个 · 低筋面粉 15g<br><b>做法</b>：西兰花焯熟切极碎末，鸡蛋打散加面粉菜末搅匀，平底锅小火摊小饼<br><b style="color:#34d399">VitC促铁吸收</b></div>
+        <span class="food-tag purple">手指食物饼状</span>
+      </div>
+    </div>
+  </div>
+  <div class="nutrient-table-wrap"><table><thead><tr><th>餐次/菜品</th><th>能量</th><th>蛋白质</th><th>铁</th><th>钙</th><th>锌</th><th>VitA</th><th>VitC</th><th>DHA</th></tr></thead><tbody>
+    <tr><td>午餐-牛肉菠菜胡萝卜烩饭+肝粉</td><td>198</td><td>8.8</td><td>3.0</td><td>28</td><td>1.8</td><td>170</td><td>8</td><td>0</td></tr>
+    <tr><td>午餐-甜玉米猪肉蒸饺</td><td>98</td><td>5.5</td><td>0.6</td><td>6</td><td>0.9</td><td>5</td><td>2</td><td>0</td></tr>
+    <tr><td>晚餐-三文鱼南瓜烩饭+肝粉</td><td>218</td><td>8.5</td><td>1.4</td><td>20</td><td>1.0</td><td>232</td><td>6</td><td>62</td></tr>
+    <tr><td>晚餐-西兰花鸡蛋软饼</td><td>129</td><td>8.5</td><td>1.3</td><td>35</td><td>0.8</td><td>132</td><td>12</td><td>35</td></tr>
+    <tr class="highlight-row"><td>📍 辅食合计</td><td>643</td><td>31.3</td><td>6.3</td><td>89</td><td>4.5</td><td>539</td><td>28</td><td>97</td></tr>
+    <tr style="background:rgba(52,211,153,0.06)"><td>📍 奶+辅食合计</td><td class="good">1168</td><td class="good">42.6</td><td class="good">12.4</td><td class="good">652</td><td class="good">8.3</td><td class="good">1049</td><td class="good">178</td><td class="good">270</td></tr>
+  </tbody></table></div>
+</div>
+
+<!-- ============ 周三 ============ -->
+<div class="day-card">
+  <div class="day-header"><span class="day-num">#03</span> 周三<span class="iron-badge high">🫀猪肝补铁日</span></div>
+  <div class="meal-section">
+    <div class="meal-label">☀ 午餐</div>
+    <div class="meal-row">
+      <div class="food-box">
+        <div class="food-type">食物① · 肉菜烩饭</div>
+        <div class="food-name">🫀 猪肝番茄木耳烩饭（姜汁去腥）</div>
+        <div class="food-detail">猪肝 25g · 番茄 25g · 黑木耳(泡发) 15g<br>软米饭 25g(干) · 核桃油 5g<br><b>做法</b>：猪肝浸泡去血水加姜汁蒸熟剁碎，番茄去皮炒出汁，木耳泡发切极碎末，与软饭烩拌<br><b style="color:#34d399">铁贡献</b>：猪肝5.7mg+木耳非血红素铁+VitC促吸收</div>
+        <span class="food-tag green">血红素铁+VitC+木耳</span>
+      </div>
+      <div class="food-box">
+        <div class="food-type">食物② · 馄饨</div>
+        <div class="food-name">🦐 鲜虾小馄饨</div>
+        <div class="food-detail">鲜虾仁 25g · 馄饨皮 15g · 小葱少许<br><b>做法</b>：虾仁去虾线剁泥，包小馄饨（一口大小），煮熟捞出</div>
+        <span class="food-tag purple">小块手指食物</span>
+      </div>
+    </div>
+  </div>
+  <div class="meal-section">
+    <div class="meal-label">🌙 晚餐</div>
+    <div class="meal-row">
+      <div class="food-box">
+        <div class="food-type">食物① · 肉菜面</div>
+        <div class="food-name">🐖 猪里脊白萝卜碎碎面</div>
+        <div class="food-detail">猪里脊 25g · 白萝卜 25g · 碎碎面 25g(干)<br>芝麻油 5g<br><b>做法</b>：猪里脊剁泥炒熟，白萝卜擦细丝煮软，碎碎面煮软拌入，淋芝麻油</div>
+        <span class="food-tag">碎面+丝状</span>
+      </div>
+      <div class="food-box">
+        <div class="food-type">食物② · 馒头</div>
+        <div class="food-name">🎃 燕麦蛋黄小馒头</div>
+        <div class="food-detail">低筋面粉 25g · 即食燕麦片 10g · 蛋黄 1个 · 酵母 1g<br><b>做法</b>：燕麦泡软加蛋黄面粉酵母和面，发酵后做成小馒头，蒸15min</div>
+        <span class="food-tag purple">软块手指食物+燕麦</span>
+      </div>
+    </div>
+  </div>
+  <div class="nutrient-table-wrap"><table><thead><tr><th>餐次/菜品</th><th>能量</th><th>蛋白质</th><th>铁</th><th>钙</th><th>锌</th><th>VitA</th><th>VitC</th><th>DHA</th></tr></thead><tbody>
+    <tr><td>午餐-猪肝番茄木耳烩饭</td><td>200</td><td>8.5</td><td>6.2</td><td>25</td><td>2.8</td><td>310</td><td>22</td><td>0</td></tr>
+    <tr><td>午餐-鲜虾小馄饨</td><td>82</td><td>5.8</td><td>0.3</td><td>22</td><td>0.5</td><td>3</td><td>0</td><td>28</td></tr>
+    <tr><td>晚餐-猪里脊白萝卜碎碎面</td><td>195</td><td>7.5</td><td>1.1</td><td>25</td><td>1.0</td><td>3</td><td>10</td><td>0</td></tr>
+    <tr><td>晚餐-燕麦蛋黄小馒头</td><td>128</td><td>5.0</td><td>0.9</td><td>22</td><td>0.6</td><td>58</td><td>0</td><td>18</td></tr>
+    <tr class="highlight-row"><td>📍 辅食合计</td><td>605</td><td>26.8</td><td>8.5</td><td>94</td><td>4.9</td><td>374</td><td>32</td><td>46</td></tr>
+    <tr style="background:rgba(52,211,153,0.06)"><td>📍 奶+辅食合计</td><td class="good">1130</td><td class="good">38.1</td><td class="good">14.6</td><td class="good">657</td><td class="good">8.7</td><td class="good">884</td><td class="good">182</td><td class="good">219</td></tr>
+  </tbody></table></div>
+</div>
+
+<!-- ============ 周四 ============ -->
+<div class="day-card">
+  <div class="day-header"><span class="day-num">#04</span> 周四<span class="iron-badge powder">🌸肝粉补铁日</span></div>
+  <div class="meal-section">
+    <div class="meal-label">☀ 午餐</div>
+    <div class="meal-row">
+      <div class="food-box">
+        <div class="food-type">食物① · 肉菜烩饭 <span class="powder-tag">+肝粉2g</span></div>
+        <div class="food-name">🍗 鸡腿肉花菜胡萝卜烩饭</div>
+        <div class="food-detail">去骨鸡腿肉 25g · 花菜(白) 20g · 胡萝卜 20g<br>软米饭 25g(干) · 亚麻籽油 5g · <b style="color:#f472b6">光合星球肝粉 2g</b><br><b>做法</b>：鸡肉切小粒炒熟，花菜焯熟碎小朵，胡萝卜蒸软切丁，与软饭烩拌，出锅拌入肝粉<br><b style="color:#34d399">铁贡献</b>：肝粉0.9mg+VitC促吸收</div>
+        <span class="food-tag green">肝粉+VitC</span>
+      </div>
+      <div class="food-box">
+        <div class="food-type">食物② · 肉丸 <span class="new-badge">NEW</span></div>
+        <div class="food-name">🥩 牛肉山药小肉丸</div>
+        <div class="food-detail">牛里脊 25g · 铁棍山药 20g · 淀粉 5g<br><b>做法</b>：牛肉剁泥，山药蒸软压泥，加淀粉搅匀搓小丸（直径1.5cm），蒸12min<br><b style="color:#34d399">铁贡献</b>：牛肉1.1mg（血红素铁）</div>
+        <span class="food-tag meat">丸状手指食物</span>
+      </div>
+    </div>
+  </div>
+  <div class="meal-section">
+    <div class="meal-label">🌙 晚餐</div>
+    <div class="meal-row">
+      <div class="food-box">
+        <div class="food-type">食物① · 肉菜面 <span class="powder-tag">+肝粉2g</span></div>
+        <div class="food-name">🐟 鳕鱼莲藕碎碎面</div>
+        <div class="food-detail">鳕鱼肉 20g · 莲藕 15g · 碎碎面 25g(干)<br>牛油果油 5g · <b style="color:#f472b6">光合星球肝粉 2g</b><br><b>做法</b>：鳕鱼蒸8min碾碎去刺，莲藕刨丝焯软，碎碎面煮软拌入，出锅拌入肝粉</div>
+        <span class="food-tag">碎面+丝状</span>
+      </div>
+      <div class="food-box">
+        <div class="food-type">食物② · 蒸糕 <span class="new-badge">NEW</span></div>
+        <div class="food-name">🫘 红豆山药蒸糕</div>
+        <div class="food-detail">红小豆 20g · 铁棍山药 30g · 低筋面粉 15g · 鸡蛋 1个<br><b>做法</b>：红小豆提前泡软煮烂压泥，山药蒸软压泥，加蛋黄面粉搅糊，蛋白打发翻拌，蒸20min</div>
+        <span class="food-tag purple">软块手指食物+红小豆</span>
+      </div>
+    </div>
+  </div>
+  <div class="nutrient-table-wrap"><table><thead><tr><th>餐次/菜品</th><th>能量</th><th>蛋白质</th><th>铁</th><th>钙</th><th>锌</th><th>VitA</th><th>VitC</th><th>DHA</th></tr></thead><tbody>
+    <tr><td>午餐-鸡腿肉花菜胡萝卜烩饭+肝粉</td><td>198</td><td>8.8</td><td>1.8</td><td>22</td><td>1.0</td><td>210</td><td>15</td><td>0</td></tr>
+    <tr><td>午餐-牛肉山药小肉丸</td><td>72</td><td>7.2</td><td>1.3</td><td>12</td><td>1.8</td><td>1</td><td>1</td><td>0</td></tr>
+    <tr><td>晚餐-鳕鱼莲藕碎碎面+肝粉</td><td>175</td><td>6.8</td><td>1.3</td><td>15</td><td>0.6</td><td>140</td><td>8</td><td>55</td></tr>
+    <tr><td>晚餐-红豆山药蒸糕</td><td>138</td><td>5.5</td><td>1.9</td><td>30</td><td>0.7</td><td>58</td><td>0</td><td>18</td></tr>
+    <tr class="highlight-row"><td>📍 辅食合计</td><td>583</td><td>28.3</td><td>6.3</td><td>79</td><td>4.1</td><td>409</td><td>24</td><td>73</td></tr>
+    <tr style="background:rgba(52,211,153,0.06)"><td>📍 奶+辅食合计</td><td class="good">1108</td><td class="good">39.6</td><td class="good">12.4</td><td class="good">642</td><td class="good">7.9</td><td class="good">919</td><td class="good">174</td><td class="good">246</td></tr>
+  </tbody></table></div>
+</div>
+
+<!-- ============ 周五 ============ -->
+<div class="day-card">
+  <div class="day-header"><span class="day-num">#05</span> 周五<span class="iron-badge mid">🐔鸡肝补铁日</span></div>
+  <div class="meal-section">
+    <div class="meal-label">☀ 午餐</div>
+    <div class="meal-row">
+      <div class="food-box">
+        <div class="food-type">食物① · 肉菜烩饭</div>
+        <div class="food-name">🐔 鸡肝菠菜燕麦烩饭</div>
+        <div class="food-detail">鸡肝 25g · 菠菜 20g · 即食燕麦片 10g · 软米饭 15g(干)<br>橄榄油 5g<br><b>做法</b>：鸡肝浸泡去血水加姜蒸熟剁碎，菠菜焯水去草酸切末，燕麦泡软，与软饭烩拌<br><b style="color:#34d399">铁贡献</b>：鸡肝3.0mg+VitC促吸收+燕麦非血红素铁</div>
+        <span class="food-tag green">血红素铁+VitC+燕麦</span>
+      </div>
+      <div class="food-box">
+        <div class="food-type">食物② · 蛋羹</div>
+        <div class="food-name">🥚 虾皮鸡蛋羹</div>
+        <div class="food-detail">鸡蛋 1个 · 淡干虾皮 3g · 温水适量<br><b>做法</b>：虾皮温水泡软剁碎，鸡蛋打散加1.5倍水过滤，混入虾皮蒸12min</div>
+        <span class="food-tag purple">细腻半固体</span>
+      </div>
+    </div>
+  </div>
+  <div class="meal-section">
+    <div class="meal-label">🌙 晚餐</div>
+    <div class="meal-row">
+      <div class="food-box">
+        <div class="food-type">食物① · 肉菜面</div>
+        <div class="food-name">🥩 牛肉木耳大白菜蝴蝶面</div>
+        <div class="food-detail">牛里脊 25g · 黑木耳(泡发) 15g · 大白菜 20g<br>蝴蝶面 25g(干) · 紫苏油 5g<br><b>做法</b>：牛肉切小粒炒熟，木耳泡发切极碎末，白菜焯熟切末，蝴蝶面煮软拌入</div>
+        <span class="food-tag">蝴蝶形+颗粒+木耳</span>
+      </div>
+      <div class="food-box">
+        <div class="food-type">食物② · 蔬菜条 <span class="new-badge">NEW</span></div>
+        <div class="food-name">🍗 鸡肉西葫芦蔬菜条</div>
+        <div class="food-detail">去骨鸡腿肉 25g · 西葫芦 20g · 低筋面粉 15g · 蛋黄 1个<br><b>做法</b>：鸡肉剁泥，西葫芦擦细丝挤水，加蛋黄面粉搅匀，做成拇指粗条状，蒸15min</div>
+        <span class="food-tag meat">条状手指食物</span>
+      </div>
+    </div>
+  </div>
+  <div class="nutrient-table-wrap"><table><thead><tr><th>餐次/菜品</th><th>能量</th><th>蛋白质</th><th>铁</th><th>钙</th><th>锌</th><th>VitA</th><th>VitC</th><th>DHA</th></tr></thead><tbody>
+    <tr><td>午餐-鸡肝菠菜燕麦烩饭</td><td>198</td><td>7.8</td><td>3.3</td><td>22</td><td>1.5</td><td>290</td><td>20</td><td>0</td></tr>
+    <tr><td>午餐-虾皮鸡蛋羹</td><td>88</td><td>7.2</td><td>1.3</td><td>65</td><td>0.8</td><td>62</td><td>0</td><td>35</td></tr>
+    <tr><td>晚餐-牛肉木耳大白菜蝴蝶面</td><td>200</td><td>8.8</td><td>1.8</td><td>32</td><td>2.1</td><td>10</td><td>8</td><td>0</td></tr>
+    <tr><td>晚餐-鸡肉西葫芦蔬菜条</td><td>114</td><td>8.8</td><td>1.1</td><td>20</td><td>0.8</td><td>94</td><td>3</td><td>18</td></tr>
+    <tr class="highlight-row"><td>📍 辅食合计</td><td>600</td><td>32.6</td><td>7.5</td><td>139</td><td>5.2</td><td>456</td><td>31</td><td>53</td></tr>
+    <tr style="background:rgba(52,211,153,0.06)"><td>📍 奶+辅食合计</td><td class="good">1125</td><td class="good">43.9</td><td class="good">13.6</td><td class="good">702</td><td class="good">9.0</td><td class="good">966</td><td class="good">181</td><td class="good">226</td></tr>
+  </tbody></table></div>
+</div>
+
+<!-- ============ 周六 ============ -->
+<div class="day-card">
+  <div class="day-header"><span class="day-num">#06</span> 周六<span class="iron-badge powder">🌸肝粉补铁日</span></div>
+  <div class="meal-section">
+    <div class="meal-label">☀ 午餐</div>
+    <div class="meal-row">
+      <div class="food-box">
+        <div class="food-type">食物① · 肉菜烩饭 <span class="powder-tag">+肝粉2g</span></div>
+        <div class="food-name">🐖 猪里脊芹菜番茄烩饭</div>
+        <div class="food-detail">猪里脊 25g · 芹菜茎 15g · 番茄 20g<br>软米饭 25g(干) · 牛油果油 5g · <b style="color:#f472b6">光合星球肝粉 2g</b><br><b>做法</b>：猪肉剁泥炒熟，芹菜焯熟切小段，番茄去皮炒出汁，与软饭烩拌，出锅拌入肝粉<br><b style="color:#fbbf24">💡 番茄酸味掩盖肝粉味</b></div>
+        <span class="food-tag">颗粒状烩饭</span>
+      </div>
+      <div class="food-box">
+        <div class="food-type">食物② · 馄饨</div>
+        <div class="food-name">🦐 鲜虾胡萝卜小馄饨</div>
+        <div class="food-detail">鲜虾仁 20g · 胡萝卜 10g · 馄饨皮 12g<br><b>做法</b>：虾仁剁泥，胡萝卜擦极细末拌入，包一口大小馄饨煮熟</div>
+        <span class="food-tag purple">小块手指食物</span>
+      </div>
+    </div>
+  </div>
+  <div class="meal-section">
+    <div class="meal-label">🌙 晚餐</div>
+    <div class="meal-row">
+      <div class="food-box">
+        <div class="food-type">食物① · 肉菜面 <span class="powder-tag">+肝粉2g</span></div>
+        <div class="food-name">🐟 三文鱼芦笋碎碎面</div>
+        <div class="food-detail">三文鱼 25g · 芦笋 20g · 碎碎面 25g(干)<br>橄榄油 5g · <b style="color:#f472b6">光合星球肝粉 2g</b><br><b>做法</b>：三文鱼蒸8min碾碎，芦笋去老根焯熟切小段，碎碎面煮软拌入，出锅拌入肝粉</div>
+        <span class="food-tag">碎面+颗粒</span>
+      </div>
+      <div class="food-box">
+        <div class="food-type">食物② · 蒸糕</div>
+        <div class="food-name">🫘 燕麦山药红枣蒸糕</div>
+        <div class="food-detail">铁棍山药 30g · 去核红枣 15g · 即食燕麦片 10g · 低筋面粉 10g · 鸡蛋 1个<br><b>做法</b>：山药蒸软压泥，红枣蒸软去皮去核压泥，燕麦泡软，加蛋黄面粉搅糊，蛋白打发翻拌，蒸20min</div>
+        <span class="food-tag purple">软块手指食物+燕麦</span>
+      </div>
+    </div>
+  </div>
+  <div class="nutrient-table-wrap"><table><thead><tr><th>餐次/菜品</th><th>能量</th><th>蛋白质</th><th>铁</th><th>钙</th><th>锌</th><th>VitA</th><th>VitC</th><th>DHA</th></tr></thead><tbody>
+    <tr><td>午餐-猪里脊芹菜番茄烩饭+肝粉</td><td>192</td><td>8.3</td><td>1.8</td><td>18</td><td>1.2</td><td>170</td><td>8</td><td>0</td></tr>
+    <tr><td>午餐-鲜虾胡萝卜小馄饨</td><td>78</td><td>5.2</td><td>0.4</td><td>22</td><td>0.5</td><td>52</td><td>2</td><td>22</td></tr>
+    <tr><td>晚餐-三文鱼芦笋碎碎面+肝粉</td><td>210</td><td>8.2</td><td>1.5</td><td>18</td><td>1.0</td><td>140</td><td>12</td><td>62</td></tr>
+    <tr><td>晚餐-燕麦山药红枣蒸糕</td><td>140</td><td>5.5</td><td>1.0</td><td>24</td><td>0.6</td><td>5</td><td>10</td><td>18</td></tr>
+    <tr class="highlight-row"><td>📍 辅食合计</td><td>620</td><td>27.2</td><td>4.7</td><td>82</td><td>3.3</td><td>367</td><td>32</td><td>102</td></tr>
+    <tr style="background:rgba(52,211,153,0.06)"><td>📍 奶+辅食合计</td><td class="good">1145</td><td class="good">38.5</td><td class="good">10.8</td><td class="good">645</td><td class="good">7.1</td><td class="good">877</td><td class="good">182</td><td class="good">275</td></tr>
+  </tbody></table></div>
+</div>
+
+<!-- ============ 周日 ============ -->
+<div class="day-card">
+  <div class="day-header"><span class="day-num">#07</span> 周日<span class="iron-badge powder">🌸肝粉补铁日</span></div>
+  <div class="meal-section">
+    <div class="meal-label">☀ 午餐</div>
+    <div class="meal-row">
+      <div class="food-box">
+        <div class="food-type">食物① · 肉菜烩饭 <span class="powder-tag">+肝粉2g</span></div>
+        <div class="food-name">🥩 牛肉木耳番茄烩饭</div>
+        <div class="food-detail">牛里脊 25g · 黑木耳(泡发) 15g · 番茄 25g<br>软米饭 25g(干) · 核桃油 5g · <b style="color:#f472b6">光合星球肝粉 2g</b><br><b>做法</b>：牛肉切小粒炒熟，木耳泡发切极碎末，番茄去皮炒出汁，与软饭烩拌，出锅拌入肝粉<br><b style="color:#fbbf24">💡 番茄酸味掩盖肝粉味</b></div>
+        <span class="food-tag green">肝粉+VitC+木耳</span>
+      </div>
+      <div class="food-box">
+        <div class="food-type">食物② · 软饼</div>
+        <div class="food-name">🥬 菠菜鸡蛋软饼</div>
+        <div class="food-detail">菠菜 15g · 鸡蛋 1个 · 低筋面粉 15g<br><b>做法</b>：菠菜焯水去草酸切极碎末，鸡蛋打散加面粉菜末搅匀，平底锅摊小饼</div>
+        <span class="food-tag purple">手指食物饼状</span>
+      </div>
+    </div>
+  </div>
+  <div class="meal-section">
+    <div class="meal-label">🌙 晚餐</div>
+    <div class="meal-row">
+      <div class="food-box">
+        <div class="food-type">食物① · 肉菜面 <span class="powder-tag">+肝粉2g</span></div>
+        <div class="food-name">🐟 鳕鱼南瓜花菜星星面</div>
+        <div class="food-detail">鳕鱼肉 20g · 老南瓜 25g · 花菜(白) 15g<br>星星造型面 25g(干) · 牛油果油 5g · <b style="color:#f472b6">光合星球肝粉 2g</b><br><b>做法</b>：鳕鱼蒸8min碾碎去刺，南瓜蒸软切小丁，花菜焯熟碎小朵，星星面煮软拌入，出锅拌入肝粉<br><b style="color:#fbbf24">💡 南瓜甜味掩盖肝粉味</b></div>
+        <span class="food-tag">星星面+颗粒</span>
+      </div>
+      <div class="food-box">
+        <div class="food-type">食物② · 肉丸 <span class="new-badge">NEW</span></div>
+        <div class="food-name">🐔 鸡肉玉米小肉丸</div>
+        <div class="food-detail">去骨鸡腿肉 25g · 甜玉米粒 10g · 淀粉 5g<br><b>做法</b>：鸡肉剁泥，玉米取粒切半，加淀粉搅匀搓小丸（直径1.5cm），蒸12min</div>
+        <span class="food-tag meat">丸状手指食物</span>
+      </div>
+    </div>
+  </div>
+  <div class="nutrient-table-wrap"><table><thead><tr><th>餐次/菜品</th><th>能量</th><th>蛋白质</th><th>铁</th><th>钙</th><th>锌</th><th>VitA</th><th>VitC</th><th>DHA</th></tr></thead><tbody>
+    <tr><td>午餐-牛肉木耳番茄烩饭+肝粉</td><td>198</td><td>8.8</td><td>2.8</td><td>25</td><td>2.0</td><td>170</td><td>22</td><td>0</td></tr>
+    <tr><td>午餐-菠菜鸡蛋软饼</td><td>108</td><td>7.0</td><td>1.5</td><td>38</td><td>0.7</td><td>78</td><td>4</td><td>35</td></tr>
+    <tr><td>晚餐-鳕鱼南瓜花菜星星面+肝粉</td><td>185</td><td>6.8</td><td>1.5</td><td>18</td><td>0.6</td><td>210</td><td>15</td><td>55</td></tr>
+    <tr><td>晚餐-鸡肉玉米小肉丸</td><td>75</td><td>7.5</td><td>0.8</td><td>10</td><td>0.7</td><td>12</td><td>1</td><td>18</td></tr>
+    <tr class="highlight-row"><td>📍 辅食合计</td><td>566</td><td>30.1</td><td>6.6</td><td>91</td><td>4.0</td><td>470</td><td>42</td><td>108</td></tr>
+    <tr style="background:rgba(52,211,153,0.06)"><td>📍 奶+辅食合计</td><td class="good">1091</td><td class="good">41.4</td><td class="good">12.7</td><td class="good">654</td><td class="good">7.8</td><td class="good">980</td><td class="good">192</td><td class="good">281</td></tr>
+  </tbody></table></div>
+</div>
+
+<!-- ============ 一周汇总 ============ -->
+<div class="section-title">📋 一周营养素日均摄入汇总</div>
+<div class="day-card">
+  <div class="nutrient-table-wrap" style="padding:18px"><table><thead><tr><th>日期</th><th>铁(mg)</th><th>锌(mg)</th><th>VitD(μg)</th><th>蛋白质(g)</th><th>钙(mg)</th><th>VitA(μg)</th><th>VitC(mg)</th><th>DHA(mg)</th></tr></thead><tbody>
+    <tr><td>周一·🩸鸭血</td><td class="good">16.6</td><td class="good">7.6</td><td class="warn">9.0</td><td class="good">35.5</td><td class="good">712</td><td class="good">746</td><td class="good">195</td><td class="good">219</td></tr>
+    <tr><td>周二·🌸肝粉</td><td class="good">12.4</td><td class="good">8.3</td><td class="warn">9.0</td><td class="good">42.6</td><td class="good">652</td><td class="good">1049</td><td class="good">178</td><td class="good">270</td></tr>
+    <tr><td>周三·🫀猪肝</td><td class="good">14.6</td><td class="good">8.7</td><td class="warn">9.0</td><td class="good">38.1</td><td class="good">657</td><td class="good">884</td><td class="good">182</td><td class="good">219</td></tr>
+    <tr><td>周四·🌸肝粉</td><td class="good">12.4</td><td class="good">7.9</td><td class="warn">9.0</td><td class="good">39.6</td><td class="good">642</td><td class="good">919</td><td class="good">174</td><td class="good">246</td></tr>
+    <tr><td>周五·🐔鸡肝</td><td class="good">13.6</td><td class="good">9.0</td><td class="warn">9.0</td><td class="good">43.9</td><td class="good">702</td><td class="good">966</td><td class="good">181</td><td class="good">226</td></tr>
+    <tr><td>周六·🌸肝粉</td><td class="good">10.8</td><td class="good">7.1</td><td class="warn">9.0</td><td class="good">38.5</td><td class="good">645</td><td class="good">877</td><td class="good">182</td><td class="good">275</td></tr>
+    <tr><td>周日·🌸肝粉</td><td class="good">12.7</td><td class="good">7.8</td><td class="warn">9.0</td><td class="good">41.4</td><td class="good">654</td><td class="good">980</td><td class="good">192</td><td class="good">281</td></tr>
+    <tr class="highlight-row"><td>📍 一周日均</td><td class="good">13.3</td><td class="good">8.1</td><td class="warn">9.0</td><td class="good">39.9</td><td class="good">666</td><td class="good">917</td><td class="good">183</td><td class="good">248</td></tr>
+    <tr style="background:rgba(52,211,153,0.06)"><td><b style="color:#34d399">🎯 推荐量</b></td><td>10</td><td>4.0</td><td>10</td><td>20</td><td>250</td><td>350</td><td>40</td><td>100</td></tr>
+    <tr style="background:rgba(52,211,153,0.06)"><td><b style="color:#34d399">📊 达成率</b></td><td class="good">✓133%</td><td class="good">✓203%</td><td class="warn">90%</td><td class="good">✓200%</td><td class="good">✓266%</td><td class="good">✓262%</td><td class="good">✓458%</td><td class="good">✓248%</td></tr>
+  </tbody></table></div>
+</div>
+
+<!-- ============ 肝粉掩味策略 ============ -->
+<div class="section-title">🌸 肝粉日拌入掩味策略</div>
+<div class="day-card">
+  <div class="nutrient-table-wrap" style="padding:18px"><table><thead><tr><th>餐次</th><th>主食菜品</th><th>掩味方式</th><th>效果</th></tr></thead><tbody>
+    <tr><td>周二午</td><td>牛肉菠菜胡萝卜烩饭</td><td>菠菜+胡萝卜调味</td><td>⭐⭐⭐</td></tr>
+    <tr><td>周二晚</td><td>三文鱼<b>南瓜</b>烩饭</td><td>南瓜甜味掩盖</td><td>⭐⭐⭐⭐⭐</td></tr>
+    <tr><td>周四午</td><td>鸡腿肉<b>花菜</b>胡萝卜烩饭</td><td>花菜+胡萝卜</td><td>⭐⭐⭐</td></tr>
+    <tr><td>周四晚</td><td>鳕鱼莲藕碎碎面</td><td>面汤稀释+鳕鱼鲜味</td><td>⭐⭐⭐</td></tr>
+    <tr><td>周六午</td><td>猪里脊芹菜<b>番茄</b>烩饭</td><td>番茄酸味掩盖</td><td>⭐⭐⭐⭐⭐</td></tr>
+    <tr><td>周六晚</td><td>三文鱼芦笋碎碎面</td><td>面汤稀释+三文鱼鲜味</td><td>⭐⭐⭐</td></tr>
+    <tr><td>周日午</td><td>牛肉木耳<b>番茄</b>烩饭</td><td>番茄酸味掩盖</td><td>⭐⭐⭐⭐⭐</td></tr>
+    <tr><td>周日晚</td><td>鳕鱼<b>南瓜</b>花菜星星面</td><td>南瓜甜味掩盖</td><td>⭐⭐⭐⭐⭐</td></tr>
+  </tbody></table></div>
+  <div style="padding:0 18px 16px;font-size:.82em;color:#6b7f99">
+    💡 肝粉含红枣粉+胡萝卜粉+柠檬，本身带微甜果味，大部分宝宝可接受；番茄/南瓜是最佳掩味搭档
+  </div>
+</div>
+
+<!-- ============ 买菜清单 ============ -->
+<div class="section-title">🛒 买菜清单（3天一采）</div>
+<div class="shop-grid">
+  <!-- A -->
+  <div class="shop-card">
+    <div class="shop-header"><span class="shop-tag">A</span> 第一批 · 周一~周三</div>
+    <div class="shop-body">
+      <div class="shop-cat">🥩 肉蛋海鲜</div>
+      <div class="shop-item"><span>鸭血(盒装熟)</span><span>1盒≈100g</span></div>
+      <div class="shop-item"><span>猪肝(鲜)</span><span>≈25g</span></div>
+      <div class="shop-item"><span>鲜虾仁</span><span class="new-item">≈50g</span></div>
+      <div class="shop-item"><span>牛里脊</span><span>≈50g</span></div>
+      <div class="shop-item"><span>猪里脊</span><span>≈45g ⬆</span></div>
+      <div class="shop-item"><span>三文鱼</span><span>≈25g</span></div>
+      <div class="shop-item"><span>鸡蛋</span><span>4个</span></div>
+      <div class="shop-cat">🌸 肝粉</div>
+      <div class="shop-item"><span class="new-item">光合星球肝粉</span><span class="new-item">4包=8g 🆕</span></div>
+      <div class="shop-cat">🥬 蔬菜</div>
+      <div class="shop-item"><span>番茄</span><span>2个≈100g ⬆</span></div>
+      <div class="shop-item"><span>西兰花</span><span>≈35g</span></div>
+      <div class="shop-item"><span>胡萝卜</span><span>1根≈80g</span></div>
+      <div class="shop-item"><span>菠菜</span><span>≈35g ⬆</span></div>
+      <div class="shop-item"><span>花菜(白)</span><span>≈20g</span></div>
+      <div class="shop-item"><span>小油菜</span><span>≈25g</span></div>
+      <div class="shop-item"><span>黑木耳(干)</span><span>≈3g 🆕</span></div>
+      <div class="shop-item"><span>白萝卜</span><span>≈25g 🆕</span></div>
+      <div class="shop-item"><span>老南瓜</span><span>≈30g</span></div>
+      <div class="shop-item"><span>甜玉米</span><span>半根</span></div>
+      <div class="shop-cat">🌾 主食/干货</div>
+      <div class="shop-item"><span>大米</span><span>≈75g</span></div>
+      <div class="shop-item"><span>蝴蝶面</span><span>1包</span></div>
+      <div class="shop-item"><span>碎碎面</span><span>1包</span></div>
+      <div class="shop-item"><span>即食燕麦片</span><span>≈10g</span></div>
+      <div class="shop-item"><span>低筋面粉</span><span>≈40g</span></div>
+      <div class="shop-item"><span>馄饨皮</span><span>≈15g</span></div>
+      <div class="shop-item"><span>饺子皮</span><span>≈15g</span></div>
+      <div class="shop-item"><span class="new-item">淀粉(红薯/玉米)</span><span class="new-item">≈5g 🆕</span></div>
+      <div class="shop-cat">🍠 薯/杂</div>
+      <div class="shop-item"><span>紫薯</span><span>≈30g</span></div>
+      <div class="shop-item"><span>铁棍山药</span><span>≈25g</span></div>
+      <div class="shop-item"><span>酵母</span><span>≈1g</span></div>
+      <div class="shop-note">💡 鸭血买盒装真空的，开封当天用完<br>💡 猪肝买鲜品当天用，或切25g分装冷冻<br>💡 虾仁可买冷冻去线的，提前冷藏解冻<br>💡 肝粉开封后密封冷藏</div>
+    </div>
+  </div>
+  <!-- B -->
+  <div class="shop-card">
+    <div class="shop-header"><span class="shop-tag">B</span> 第二批 · 周四~周六</div>
+    <div class="shop-body">
+      <div class="shop-cat">🥩 肉蛋海鲜</div>
+      <div class="shop-item"><span>鸡肝(鲜)</span><span>≈25g</span></div>
+      <div class="shop-item"><span>牛里脊</span><span class="new-item">≈75g ⬆</span></div>
+      <div class="shop-item"><span class="new-item">去骨鸡腿肉</span><span class="new-item">≈50g ⬆</span></div>
+      <div class="shop-item"><span>猪里脊</span><span>≈25g</span></div>
+      <div class="shop-item"><span>鳕鱼肉</span><span>≈20g</span></div>
+      <div class="shop-item"><span>鲜虾仁</span><span>≈20g</span></div>
+      <div class="shop-item"><span>三文鱼</span><span>≈25g</span></div>
+      <div class="shop-item"><span>鸡蛋</span><span>3个</span></div>
+      <div class="shop-item"><span>淡干虾皮</span><span>≈3g</span></div>
+      <div class="shop-cat">🌸 肝粉</div>
+      <div class="shop-item"><span class="new-item">光合星球肝粉</span><span class="new-item">4包=8g 🆕</span></div>
+      <div class="shop-cat">🥬 蔬菜</div>
+      <div class="shop-item"><span>小白菜</span><span>≈20g</span></div>
+      <div class="shop-item"><span>胡萝卜</span><span>1根≈60g</span></div>
+      <div class="shop-item"><span>芹菜茎</span><span>≈15g</span></div>
+      <div class="shop-item"><span>莲藕</span><span>≈15g</span></div>
+      <div class="shop-item"><span>花菜(白)</span><span class="new-item">≈15g</span></div>
+      <div class="shop-item"><span>西兰花</span><span>≈15g</span></div>
+      <div class="shop-item"><span>芦笋</span><span>≈20g</span></div>
+      <div class="shop-item"><span>西葫芦</span><span>≈20g</span></div>
+      <div class="shop-item"><span>番茄</span><span>1个≈50g</span></div>
+      <div class="shop-item"><span>黑木耳(干)</span><span>≈3g</span></div>
+      <div class="shop-item"><span>大白菜</span><span>≈20g</span></div>
+      <div class="shop-item"><span>老南瓜</span><span class="new-item">≈20g</span></div>
+      <div class="shop-item"><span>菠菜</span><span>≈15g</span></div>
+      <div class="shop-cat">🌾 主食/干货</div>
+      <div class="shop-item"><span>大米</span><span>≈65g</span></div>
+      <div class="shop-item"><span>星星造型面</span><span>1包</span></div>
+      <div class="shop-item"><span>蝴蝶面</span><span>1包</span></div>
+      <div class="shop-item"><span>碎碎面</span><span>1包</span></div>
+      <div class="shop-item"><span>即食燕麦片</span><span>≈20g</span></div>
+      <div class="shop-item"><span>低筋面粉</span><span>≈35g</span></div>
+      <div class="shop-item"><span>馄饨皮</span><span>≈12g</span></div>
+      <div class="shop-item"><span class="new-item">红小豆</span><span class="new-item">≈20g 🆕</span></div>
+      <div class="shop-item"><span class="new-item">淀粉(红薯/玉米)</span><span class="new-item">≈5g</span></div>
+      <div class="shop-cat">🍠 薯/杂</div>
+      <div class="shop-item"><span>土豆</span><span>≈35g</span></div>
+      <div class="shop-item"><span>铁棍山药</span><span>≈50g ⬆</span></div>
+      <div class="shop-item"><span>去核红枣</span><span>≈15g</span></div>
+      <div class="shop-note">💡 鳕鱼/三文鱼冷冻分装，用前冷藏解冻<br>💡 鸡腿肉可一次买150g，分3份冷冻<br>💡 红小豆提前泡2h再煮烂<br>💡 肝粉开封后密封冷藏</div>
+    </div>
+  </div>
+  <!-- C -->
+  <div class="shop-card">
+    <div class="shop-header"><span class="shop-tag">C</span> 第三批 · 周日</div>
+    <div class="shop-body">
+      <div class="shop-cat">🥩 肉蛋海鲜</div>
+      <div class="shop-item"><span>牛里脊</span><span>≈25g</span></div>
+      <div class="shop-item"><span>去骨鸡腿肉</span><span>≈25g</span></div>
+      <div class="shop-item"><span>鳕鱼肉</span><span class="new-item">≈20g</span></div>
+      <div class="shop-item"><span>鸡蛋</span><span>2个</span></div>
+      <div class="shop-cat">🌸 肝粉</div>
+      <div class="shop-item"><span class="new-item">光合星球肝粉</span><span class="new-item">2包=4g 🆕</span></div>
+      <div class="shop-cat">🥬 蔬菜</div>
+      <div class="shop-item"><span>老南瓜</span><span>≈25g</span></div>
+      <div class="shop-item"><span>花菜(白)</span><span>≈15g</span></div>
+      <div class="shop-item"><span>菠菜</span><span>≈15g</span></div>
+      <div class="shop-item"><span>胡萝卜</span><span>≈20g</span></div>
+      <div class="shop-item"><span>黑木耳(干)</span><span>≈2g</span></div>
+      <div class="shop-item"><span>番茄</span><span>1个≈25g</span></div>
+      <div class="shop-item"><span>甜玉米</span><span>半根</span></div>
+      <div class="shop-cat">🌾 主食/干货</div>
+      <div class="shop-item"><span>大米</span><span>≈25g</span></div>
+      <div class="shop-item"><span>星星造型面</span><span>1包</span></div>
+      <div class="shop-item"><span>低筋面粉</span><span>≈30g</span></div>
+      <div class="shop-item"><span class="new-item">淀粉(红薯/玉米)</span><span class="new-item">≈5g</span></div>
+      <div class="shop-cat">🍠 薯/杂</div>
+      <div class="shop-note">💡 周日只1天量，可复用B批剩菜<br>💡 胡萝卜/菠菜/南瓜B批有剩可继续用<br>💡 鳕鱼/鸡腿肉可从B批冷冻取用</div>
+    </div>
+  </div>
+</div>
+
+<!-- 关键说明 -->
+<div class="section-title">💡 关键营养说明</div>
+<div class="info-box">
+  <b style="color:#34d399">✅ 铁：日均13.3mg → 达标133%</b><br>
+  <div style="padding-left:18px;margin-bottom:10px;color:#a0b0c5">
+    新鲜肝/血3天(鸭血1+猪肝1+鸡肝1) + 肝粉4天(每餐2g) + 红肉每日穿插 + 植物铁源(黑木耳/菠菜/红小豆/燕麦)<br>
+    所有含铁餐搭配VitC蔬菜（番茄/西兰花/花菜），铁吸收率最大化
+  </div>
+  <b style="color:#f472b6">🌸 肝粉安全性</b><br>
+  <div style="padding-left:18px;margin-bottom:10px;color:#a0b0c5">
+    每天最多4g(2包)，铁1.8mg/天，占RNI的18% — <b style="color:#34d399">安全</b><br>
+    肝粉VitA约280μg/4g，比新鲜猪肝25g(1243μg)更可控 — <b style="color:#34d399">VitA不过量</b><br>
+    钠7.9mg/4g，仅占限制的2.6% — <b style="color:#34d399">极低</b>
+  </div>
+  <b style="color:#fbbf24">⚠️ 维生素D：日均9μg → 加补充剂后达标</b><br>
+  <div style="padding-left:18px;margin-bottom:10px;color:#a0b0c5">
+    奶提供9μg → <b style="color:#34d399">每日补400IU(10μg) VD3</b>后合计19μg，远超推荐量10μg
+  </div>
+  <b style="color:#34d399">✅ 锌：日均8.1mg → 达标203%</b><br>
+  <div style="padding-left:18px;margin-bottom:10px;color:#a0b0c5">
+    按2023版锌4.0mg/d标准，奶3.75mg+辅食4.4mg=8.15mg，轻松达标<br>
+    肝粉锌0.6mg/4g也是锌的优秀补充来源
+  </div>
+  <b style="color:#fb923c">🆕 肉丸/鱼丸制作要点</b><br>
+  <div style="padding-left:18px;margin-bottom:10px;color:#a0b0c5">
+    ① 肉一定要<b>剁成细泥</b>，10月龄还不能嚼粗纤维肉粒<br>
+    ② 加<b>淀粉/山药泥</b>做粘合剂，口感更嫩不易散<br>
+    ③ 丸径<b>1~1.5cm</b>，防噎风险，一口一个刚好<br>
+    ④ 蒸比煮更营养，汁水不流失；煎饼小火双面金黄
+  </div>
+  <b style="color:#fbbf24">📌 肝脏食用安全</b><br>
+  <div style="padding-left:18px;color:#a0b0c5">
+    新鲜肝脏3次/周(猪肝1+鸡肝1+鸭血1)，每次25g — 间隔≥1天，VitA不过量<br>
+    肝粉日VitA约280μg(肝粉)+88μg(蛋黄)+200μg(胡萝卜/南瓜)≈570μg，接近但未超UL(600μg)<br>
+    <b>安全原则</b>：新鲜肝脏一周不超3次、每次不超25g；肝粉一天不超4g
+  </div>
+</div>
+
+<div class="footer">
+  参考《中国居民膳食营养素参考摄入量（2023版）》· 锌RNI按4.0mg/d<br>
+  奶粉数据：Aptamil Profutura Stage 2 (Australia) · 营养素含量为估算值<br>
+  🌸 V7 肝粉+新鲜肝脏双路补铁 · 🆕 肉丸·鱼丸·蔬菜条·红豆蒸糕 · 不吃羊肉·不吃芝麻酱
+</div>
+</div>
+</body></html>
